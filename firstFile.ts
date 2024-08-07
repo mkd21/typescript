@@ -128,3 +128,23 @@ let unique : allDetailsofCity = {
     pincode : 812001
 }
 
+// TYPE Aliases 
+
+// basically custom type bana liye 
+
+type Employee = {
+    name : string,
+    phone_no : number,
+    email : string,
+    id : number
+};
+
+//  type of mayank is Employee  -- isse ts will keep a check ki all the properties of type Employee is used while creating mayank or not
+let intern : Employee = {
+    phone_no : 993911,
+    name : "Mayank",
+    email : "mayankdeep217@mail.com",
+    id : 102212
+}
+
+console.log(intern);
