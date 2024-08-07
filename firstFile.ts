@@ -225,3 +225,4 @@ function allAboutCars(cars : Dealer)
     cars.dealerRating = 3.4;
     cars.engineName = "V8";
 }
+
