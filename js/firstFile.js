@@ -63,20 +63,12 @@ function userID(id) {
 }
 userID(23);
 userID("31");
-// that was union of types 
-
-
-// NOW LETS SEE INTERSECTION OF TYPES (matlab dono value hona chahiya)
-
-// examples
-
 let unique = {
     cityName: "BGP",
     population: 1222112,
     stateName: "Bihar",
     pincode: 812001
 };
-
 //  type of mayank is Employee  -- isse ts will keep a check ki all the properties of type Employee is used while creating mayank or not
 let intern = {
     phone_no: 993911,
@@ -84,5 +76,25 @@ let intern = {
     email: "mayankdeep217@mail.com",
     id: 102212
 };
-
 console.log(intern);
+// user is look a like of User. 
+function exec(user) {
+    user.name;
+    user.age;
+}
+// properties will merge together --> if we keep the name of variable of interface same
+function combined(details) {
+    details.naam;
+    details.phone_no;
+    details.pata;
+    details.pincode;
+}
+// points to note 
+// --> hyundai will have all the values of car interface 
+// --> dealer will have all the values of hyundai interface as well as Car interface 
+function allAboutCars(cars) {
+    cars.car_name = "Creta";
+    cars.NCAP_rating = 4.5;
+    cars.dealerRating = 3.4;
+    cars.engineName = "V8";
+}
