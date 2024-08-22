@@ -20,5 +20,5 @@ nc.printData();
 
 // lets try to change it 
 
-// nc.Name = "changed";             // errow will be thrown. although changes will reflwct but errors will be visible.
+// nc.Name = "changed";             // erros will be thrown. although changes will reflect but errors will be visible.
 nc.printData();
