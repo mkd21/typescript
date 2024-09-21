@@ -8,7 +8,7 @@ class Human
     height: number;
     constructor(skinColor : string , lambai : number)
     {
-        this.complexion = skinColor;
+        this.complexion = skinColor; 
         this.height = lambai;
     }
 
