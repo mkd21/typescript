@@ -8,7 +8,7 @@ class Stack <T>
     }
 
     push(element : T) : void
-    {
+    { 
         this.arr.push(element);
     }
 
