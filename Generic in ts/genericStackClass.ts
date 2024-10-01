@@ -11,7 +11,7 @@ class Stack <T>
     { 
         this.arr.push(element);
     }
-
+  
     pop() : void
     {
         if(this.arr.length == 0) {
