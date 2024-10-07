@@ -13,7 +13,7 @@ class Human
     }
  
     makeHuman()
-    {
+    { 
         console.log("Human has been made...");
         console.log(`This human has 2 ears , eyes and 1 nose respectively,height of this person is ${this.height} feet`);
     }
