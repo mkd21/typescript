@@ -11,7 +11,7 @@ class Human
         this.complexion = skinColor;  
         this.height = lambai;
     }
-
+ 
     makeHuman()
     {
         console.log("Human has been made...");
